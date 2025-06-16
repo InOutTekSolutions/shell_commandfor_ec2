@@ -22,12 +22,7 @@ This setup is ideal for:
 - **Root/Superuser Access**: Required for installing packages and modifying system permissions.
 - **backend-app.jar**: The Spring Boot backend application (must be placed in the `~/elastic-setup` directory).
 
-## Repository Contents
 
-- `install.sh`: A Bash script that installs Docker, Docker Compose, sets up the Elasticsearch-Kibana stack, and starts the Spring Boot backend.
-- `docker-compose.yml`: Configures a single-node Elasticsearch instance and a Kibana instance with minimal resource settings.
 
-## How to Use
 
-Follow these steps to set up and run the Elasticsearch-Kibana stack:
 
